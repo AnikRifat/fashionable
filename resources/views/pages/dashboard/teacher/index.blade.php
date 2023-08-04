@@ -18,8 +18,8 @@
                     </div>
 
                     <div class="dashboard-nav__logo">
-                        <a class="logo" href="{{ route('index') }}"><img src="{{ asset('') }}assets/images/dark-logo.png" alt="Logo"
-                              width="148" height="62"></a>
+                        <a class="logo" href="{{ route('index') }}"><img
+                              src="{{ asset('') }}assets/images/dark-logo.png" alt="Logo" width="148" height="62"></a>
                     </div>
 
                 </div>
@@ -218,7 +218,8 @@
 
                         <div class="dashboard-header__user">
                             <div class="dashboard-header__user-avatar">
-                                <img src="{{ asset('') }}assets/images/avatar/avatar-02.jpg" alt="Avatar" width="90" height="90">
+                                <img src="{{ asset('') }}assets/images/avatar/avatar-02.jpg" alt="Avatar" width="90"
+                                  height="90">
                             </div>
                             <div class="dashboard-header__user-info">
                                 <h4 class="dashboard-header__user-name"><span class="welcome-text">Howdy,</span> Adeniyi
@@ -365,96 +366,6 @@
         </main>
         <!-- Dashboard Main Wrapper End -->
 
-        <!-- Edumall Demo Option Start -->
-        <div class="edumall-demo-option">
-
-            <div class="edumall-demo-option__toolbar">
-                <button class="toolbar-action demo-open" data-bs-tooltip="tooltip" data-bs-placement="left" title=""
-                  data-bs-original-title="Select Demo" aria-label="Select Demo"><i
-                      class="fas fa-pencil-ruler"></i></button>
-                <a class="toolbar-action" href="https://hasthemes.com/contact-us/" data-bs-tooltip="tooltip"
-                  data-bs-placement="left" title="" data-bs-original-title="Support Channel"
-                  aria-label="Support Channel"><i class="far fa-life-ring"></i></a>
-                <a class="toolbar-action" href="https://1.envato.market/qnL5nL" data-bs-tooltip="tooltip"
-                  data-bs-placement="left" title="" data-bs-original-title="Purchase EduMall"
-                  aria-label="Purchase EduMall"><i class="fas fa-shopping-basket"></i></a>
-            </div>
-
-            <div class="edumall-demo-option__panel">
-
-                <div class="edumall-demo-option__header">
-                    <h5 class="edumall-demo-option__title">EduMall - Professional LMS Education Center HTML Template
-                    </h5>
-                    <a class="edumall-demo-option__btn btn btn-primary btn-hover-secondary"
-                      href="https://1.envato.market/qnL5nL"><i class="fas fa-shopping-basket"></i> Buy Now</a>
-                </div>
-
-                <div class="edumall-demo-option__body">
-                    <!-- <div class="edumall-demo-option-item">
-                    <a href="" data-bs-tooltip="tooltip" data-bs-placement="top" title="Landing Page">
-                        <img src="{{ asset('') }}assets/images/demo/landing.jpg" alt="">
-                    </a>
-                </div> -->
-                    <div class="edumall-demo-option-item">
-                        <a href="{{ route('index') }}" data-bs-tooltip="tooltip" data-bs-placement="top" title=""
-                          data-bs-original-title="Main Demo">
-                            <img src="{{ asset('') }}assets/images/demo/home-01.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-course-hub.html" data-bs-tooltip="tooltip" data-bs-placement="top" title=""
-                          data-bs-original-title="Course Hub">
-                            <img src="{{ asset('') }}assets/images/demo/home-02.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-online-academy.html" data-bs-tooltip="tooltip" data-bs-placement="top" title=""
-                          data-bs-original-title="Online Academy">
-                            <img src="{{ asset('') }}assets/images/demo/home-03.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-education-center.html" data-bs-tooltip="tooltip" data-bs-placement="top" title=""
-                          data-bs-original-title="Education Center">
-                            <img src="{{ asset('') }}assets/images/demo/home-04.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-university.html" data-bs-tooltip="tooltip" data-bs-placement="top" title=""
-                          data-bs-original-title="University">
-                            <img src="{{ asset('') }}assets/images/demo/home-05.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-language-academic.html" data-bs-tooltip="tooltip" data-bs-placement="top"
-                          title="" data-bs-original-title="Language Academic">
-                            <img src="{{ asset('') }}assets/images/demo/home-06.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-single-instructor.html" data-bs-tooltip="tooltip" data-bs-placement="top"
-                          title="" data-bs-original-title="Single Instructor">
-                            <img src="{{ asset('') }}assets/images/demo/home-07.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-dev.html" data-bs-tooltip="tooltip" data-bs-placement="top" title=""
-                          data-bs-original-title="Dev">
-                            <img src="{{ asset('') }}assets/images/demo/home-08.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                    <div class="edumall-demo-option-item">
-                        <a href="index-online-art.html" data-bs-tooltip="tooltip" data-bs-placement="top" title=""
-                          data-bs-original-title="Online Art">
-                            <img src="{{ asset('') }}assets/images/demo/home-09.jpg" alt="Home" width="130" height="158">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- Edumall Demo Option End -->
 
 
         @include('inc.script')

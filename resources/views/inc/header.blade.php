@@ -48,8 +48,8 @@
 
                 <!-- Header Logo Start -->
                 <div class="header-logo">
-                    <a class="header-logo__logo" href=""><img src="{{ asset('') }}assets/images/dark-logo.png"
-                          width="296" height="64" alt="Logo"></a>
+                    <a class="header-logo__logo" href="{{ route('index') }}"><img
+                          src="{{ asset('') }}assets/images/dark-logo.png" width="296" height="64" alt="Logo"></a>
                 </div>
                 <!-- Header Logo End -->
 
